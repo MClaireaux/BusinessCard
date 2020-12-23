@@ -1,0 +1,110 @@
+body{
+  background-color: black;
+  background:hsl(185, 75%, 39%);
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+
+
+.img-bg-top{
+position: absolute;
+width:70%;
+top:-85%;
+left:-20%;
+}
+
+.img-bg-bottom{
+  position: absolute;
+  width:70%;
+  bottom:-85%;
+  right: -20%;
+}
+
+.bg{
+  width:1440px;
+  text-align: center;
+  height: inherit;
+  margin:auto;
+
+}
+
+.card{
+  background-color: white;
+  width:400px;
+  border-radius: 20px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.card-bg{
+  width:inherit;
+  border-top-right-radius: 20px;
+  border-top-left-radius:20px;
+  margin-bottom: 60px;
+}
+
+.profile{
+  width: 30%;
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 150px;
+  border-color:white;
+  border-style:solid;
+  border-width: 5px;
+  background-color: white;
+}
+
+
+.city{
+  font-size: 14px;
+  font-weight: 400px;
+  margin-bottom: 50px;
+}
+
+.tab{
+  margin-left: auto;
+ margin-right: auto;
+ margin-top: 15px;
+ margin-bottom: 10px;
+ width:400px;
+}
+
+p{
+  color:hsl(227, 10%, 46%);
+  font-size: 18px;
+}
+
+hr{
+  color:hsl(227, 10%, 46%);
+}
+
+span{
+  font-size: 18px;
+  font-weight: 700;
+  color:hsl(229, 23%, 23%);
+}
+
+.logo{
+  width:30px;
+}
+
+.attribution{
+  font-family: serif;
+  font-size: 12px;
+  margin-bottom:0;
+  margin-left:0;
+}
